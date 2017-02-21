@@ -192,7 +192,7 @@ and candidates from it should be shown on various pages.
 
 `Use for candidate suggestions` - If this is set to True, then on
 the page for a Post, the candidates from this election will be
-offered as possibile candidates for this election in an "Are
+offered as possible candidates for this election in an "Are
 these candidates standing again?" section, so you can quickly
 say "Yes, they are" or "No, they aren't".
 
@@ -230,7 +230,7 @@ those posts with the admin command
 `candidates_create_areas_and_posts_from_mapit`.  (Otherwise
 you'll need to write your own script to create them.)
 
-For example, to set up a post for each consituency in the UK
+For example, to set up a post for each constituency in the UK
 general election using UK MapIt you might run:
 
    ./manage.py candidates_create_areas_and_posts_from_mapit \

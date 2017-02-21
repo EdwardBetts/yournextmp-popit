@@ -51,7 +51,7 @@ def _modified(path):
         if mtime != _times[path]:
             return True
     except:
-        # If any exception occured, likely that file has been
+        # If any exception occurred, likely that file has been
         # been removed just before stat(), so force a restart.
 
         return True
